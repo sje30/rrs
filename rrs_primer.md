@@ -167,7 +167,7 @@ several other routes are available, or have been tried.   UK SCL; MIT rights; Sp
 Belgium, to allow researchers to share work.
 
 
-## Will it help us?  will it disappear
+## Will it help us?  will it disappear?
 
 Scholarly communications seems like an epic game of chess played out
 over decades.  Just as we (academics) think there is some solution,
@@ -179,6 +179,16 @@ communication.  Even if you are a well-funded researcher that can
 afford high APCs, this system excludes those researchers, particularly
 from other countries (the global South, ref?) that cannot affrord such
 fees.
+
+It may be that the RRS is a tool that may disappear after a few years,
+if publishers accept that authors hold the rights to their AAM.  In
+this sense, the RRS would have been a success, even if no longer
+requierd, as it brought about the necessary change.  However,
+experience has shown us that publishers are capable of responding to
+strong moves with equally strong moves, and what "unintended consequences"
+there may be of adopting RRS.  However, given how messed up scholarly
+communications is to the outsider, we doubt it will make matters worse
+for us as academics.
 
 In a nutshell, if traditional publishers see the RRS as a threat to
 their continued existence, then this at least promotes discussion.  We
