@@ -1,5 +1,16 @@
 # Primer on the RRS
 
+## Abstract
+
+The rights retention strategy (RRS) is the latest tool developed in
+the ongoing debate in scholarly communications.  These tools may seem
+obscure and of little relevance to academics publishing papers, but we
+believe it is important that academics learn about these tools, and
+what they are trying to achieve.  This primer is written to give
+academics an overview of the RRS and its pros and cons in scholarly
+communciation.  Our view is that overall the RRS should be seen as
+part of the toolkit to overbcome being "Bullied into Bad Science".
+
 
 **Abbreviations: ** 
 AAM: author accepted manuscript
@@ -13,9 +24,7 @@ VOR: version of record.
 
 Wellcome Trust guide:
 
-Publishers anti:
 
-Publishers pro: Royal Society? 
 
 
 # Introduction
@@ -176,10 +185,13 @@ OA journals.
 
 # Conclusions
 
+# References 
+
+<https://scholarlykitchen.sspnet.org/2021/02/17/rights-retention-strategy>
 
 ## Acknowledgements
 
-Johan Rooryck; Lisa 
+Johan Rooryck (*); Lisa Hinchliffe (*).  (*) = TBC.
 
 
 
