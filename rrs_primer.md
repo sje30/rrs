@@ -1,5 +1,8 @@
 # Primer on the RRS
 
+
+\onehalfspacing
+
 ## Abstract
 
 The rights retention strategy (RRS) is the latest tool developed in
