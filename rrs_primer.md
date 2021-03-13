@@ -156,7 +156,9 @@ Copyright chicken.  Puts onus on individual; risky strategy?
 Many trational publishers have signed a letter objecting to the RRS:
 <https://ioppublishing.org/signatories_publish_statement_on_rights_retention_strategy/>
 
-Their fundamental objection seems thto the
+Their fundamental objection seems to me that they are the only
+trusted guardians of the publishing record, and that they need to
+protect their business.
 
 ## related approaches
 
