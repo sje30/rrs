@@ -29,7 +29,8 @@ thorny issue of complying with open access policies.  If you are
 lucky, your funders may readily pay the article processing charge
 (APC).  Or you may have chosen a diamond OA venue where there is no
 APC.  But what about if you have chosen to publish in a 'hybrid' venue
-and you would like to make your article open access.
+and you would like to make your article open access with no recourse
+to funds for paying the APC?
 
 What you might wish to do is to share the version of the manuscript
 that the journal has been accepted, the so-called "author-accepted
@@ -72,6 +73,10 @@ This magic sentence alerts the editor to your intention to share your
 AAM under a CC BY licence (a permissive licence ...).  This *should*
 give you the right to freely share your AAM.
 
+It would seem pragmatic to routinely adopt this text in our
+manuscripts.  Even if you plan to send the journal to a publisher that
+does not ask you to sign away your rights, it sets a good example to
+others in the community.
 
 ## Examples of it in action...
 
@@ -146,7 +151,8 @@ Their fundamental objection seems thto the
 
 ## related approaches
 
-UK SCL; MIT rights; Sparc addendum.  Legislation, e.g. France,
+This idea of preserving author rights during publication is not new;
+several other routes are available, or have been tried.   UK SCL; MIT rights; Sparc addendum.  Legislation, e.g. France,
 Belgium, to allow researchers to share work.
 
 
@@ -164,8 +170,9 @@ from other countries (the global South, ref?) that cannot affrord such
 fees.
 
 In a nutshell, if traditional publishers see the RRS as a threat to
-their continued existence, good.  We would rather see equitable OA
-practices, such as overlay and diamond OA journals.
+their continued existence, then this at least promotes discussion.  We
+would rather see equitable OA practices, such as overlay and diamond
+OA journals.
 
 # Conclusions
 
