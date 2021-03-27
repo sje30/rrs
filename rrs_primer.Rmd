@@ -35,9 +35,10 @@ their own content.
 
 
 **Abbreviations: ** 
-AAM: author accepted manuscript
-RRS: rights retention strategy; 
-VOR: version of record.
+AAM: Author Accepted Manuscript;
+CC BY: Creative Commons Attribution Licence;
+RRS: Rights Retention Strategy; 
+VOR: Version Of Record.
 
 
 # Introduction
@@ -163,9 +164,9 @@ a [pilot
 program](https://www.eurekalert.org/pub_releases/2021-01/aaft-foa011421.php)
 where it will accept manuscripts using the RRS from authors if (and
 only if) they are funded by plan-S funders (M Phelan, personal
-communication).  The only publishers that seem to endorse the RRS are
-the *Royal Society* and the *Microbiology society*
-<https://www.coalition-s.org/rights-retention-strategy>.
+communication).  The only subscription-based publishers that seem to
+endorse the RRS are the *Royal Society* and the *Microbiology society*
+(<https://www.coalition-s.org/rights-retention-strategy>).
 
 Several concerns have been raised already:
 
@@ -229,7 +230,7 @@ doubt the RRS is the silver bullet, but if nothing else it is a useful
 tool to raise awareness of scholarly communications and in particular
 the ability of authors to retain rights to use their own works as they
 choose.  Even if you are a well-funded researcher that can afford high
-PCs, the current system excludes many researchers, particularly from
+APCs, the current system excludes many researchers, particularly from
 regions such as [Latin
 America](https://septentrio.uit.no/index.php/SCS/article/view/4964)
 that cannot afford high APCs.
@@ -241,9 +242,9 @@ this sense, the RRS would have been a success, even if no longer
 required, as it brought about the necessary change.  However,
 experience has shown us that publishers are capable of responding to
 strong moves with equally strong moves, and what "unintended
-consequences" there may be of adopting RRS.  However, given how messed
-up scholarly communications appears both inside and outside of the
-academic bubble, I doubt it will make matters worse for us as
+consequences" there may be of adopting the RRS.  However, given how
+messed up scholarly communications appears both inside and outside of
+the academic bubble, I doubt it will make matters worse for us as
 academics.
 
 In a nutshell, if traditional publishers see the RRS as a threat to
@@ -270,8 +271,8 @@ on this topic.
 ## Acknowledgements
 
 I thank the following for comments and feedback on this article:
-Rupert Gatti(+), Ross Mounce (+), Johan Rooryck, Sally Rumsey.
-Thanks to Lisa Hinchliffe (+) for comments online.  A CC BY or
+Rupert Gatti(+), Ross Mounce, Johan Rooryck, Sally Rumsey.
+Thanks to Lisa Hinchliffefor comments online.  A CC BY or
 equivalent licence is applied to the AAM arising from this
 submission.  (+ = to be confirmed.)
 
