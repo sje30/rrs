@@ -6,7 +6,7 @@ output:
   pdf_document:
      includes:
        in_header: "pandoc-header.tex"
-date: 2021-03-27 v0.2
+date: 2021-03-27 v0.21
 urlcolor: blue
 bibliography: <!-- \bibliography{/Users/kjhealy/Documents/bibs/socbib-pandoc.bib} This is a hack for Emacs users so that RefTeX knows where your bibfile is, and you can use RefTeX citation completion in your .md files. -->
 ---
