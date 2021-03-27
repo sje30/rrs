@@ -4,6 +4,8 @@ rrs_primer.pdf: rrs_primer.Rmd
 rrs_primer.docx: rrs_primer.Rmd
 	Rscript -e 'rmarkdown::render("$<", output_format="word_document")'
 
+submission: rrs_primer.pdf rrs_primer.docx
+	git commit -m 'auto-generated submission' rrs_primer.pdf rrs_primer.docx rrs_primer.Rmd
 
 
 # rrs_primer.pdf: rrs_primer.md
