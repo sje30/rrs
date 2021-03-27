@@ -1,0 +1,63 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\usetikzlibrary{snakes,arrows}
+\tikzstyle{agent} = [rectangle, rounded corners, minimum width=14cm,minimum height=1cm,text centered, draw=black, fill=red!30]
+\tikzstyle{paper} = [rectangle, rounded corners, minimum width=1cm, minimum height=1cm,text centered, draw=black, fill=green!30]
+\tikzstyle{review} = [rectangle, rounded corners, minimum width=1cm, minimum height=1cm,text centered, draw=black, fill=blue!30]
+\begin{tikzpicture}
+
+  %%\draw (0,0) -- (4,0) -- (4,4) -- (0,4) -- cycle;
+
+  \def\m{4};
+  \def\e{7};
+
+  \node (reviewer) [agent,fill=blue!30] at (6, \e)  {REVIEWERS / EDITOR};
+  \node (author) [agent, fill=green!30] at (6, 01) {AUTHORS};
+
+  \draw[very thick,->] (0,1) -- (0,\e);
+  \node (paper1) [paper] at (0, \m) {PAPER V1};
+
+
+  \draw[very thick,->] (2,\e) -- (2,1);
+  \node (reviews1) [review] at (2, \m) {REVIEWS};
+
+
+  
+  \draw[very thick,->] (5,1) -- (5,\e);
+  \node (paper2) [paper] at (5, \m) {PAPER V2};
+
+  \draw[very thick,->] (7,\e) -- (7,1);
+  \node (reviews1) [review] at (7, \m) {REVIEWS};
+  
+
+
+  \draw[very thick,->] (10,1) -- (10,\e);
+  \node (paper3) [paper] at (10, \m) {PAPER V3};
+
+  \draw[very thick,->] (11.5,\e) -- (11.5,1);
+  \node (reviews3) [review] at (11.5, \m) {OK};
+
+
+  \node (vor) [paper,fill=yellow!50] at (14, 6) {VOR};
+  \node (aam) [paper,fill=green!50] at (12.5, 2.5) {AAM};
+  %% \draw (2,2) rectangle (3,1);
+
+  \draw[thick,->,dashed] (12.5,\e) |- (vor);
+  \draw[thick,->,dotted] (paper3.south) ++(0.2cm,0cm) |- (aam);
+
+  %%\draw[step=1cm,gray, very thin] (0,0) grid (12,12);
+
+  \draw[thick,->] (0,0) -- (10,0) node[anchor=west] {Time};
+
+  \draw[thick,dashed] (10,\e) to [out=30,in=150] (12.5,\e);
+  %% \draw [->] (author) -- (reviews3) -- (reviewer);
+\end{tikzpicture}
+
+
+\end{document}
