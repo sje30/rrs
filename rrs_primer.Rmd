@@ -1,11 +1,12 @@
 ---
 title: Primer on the Rights Retention Strategy
-author: Stephen J Eglen
+author:
+  - Stephen J Eglen^[University of Cambridge, sje30@cam.ac.uk, https://doi.org/10.5281/zenodo.4641752]
 output:
   pdf_document:
      includes:
        in_header: "pandoc-header.tex"
-date: 2021-03-25 v0.1
+date: 2021-03-27 v0.2
 urlcolor: blue
 bibliography: <!-- \bibliography{/Users/kjhealy/Documents/bibs/socbib-pandoc.bib} This is a hack for Emacs users so that RefTeX knows where your bibfile is, and you can use RefTeX citation completion in your .md files. -->
 ---
@@ -41,10 +42,12 @@ RRS: Rights Retention Strategy;
 VOR: Version Of Record.
 
 
-# Introduction
-
 **This is written by researchers, for researchers, very much
-work-in-progress during 2021. Comments welcome.  See <https://github.com/sje30/rrs> for sources. **
+work-in-progress during 2021. Comments welcome.
+See <https://github.com/sje30/rrs> for sources. **
+
+
+# Introduction
 
 Congratulations!  Your paper has just been accepted for publication in
 a journal.  Your excitement may soon fade however when it turns to the
@@ -111,13 +114,11 @@ submitting it to a journal:
 
 (Authors funded by the Wellcome Trust should use a [two sentence
 version](https:/wellcome.org/grant-funding/guidance/open-access-guidance/complying-with-our-open-access-policy) that ensures their grant number is also listed appropriately.
-
 This magic sentence alerts the editor at the start of the submission
 process of your intention to share your AAM under a CC BY licence (a
 permissive copyright licence).  Using it upon submission gives you the
 right to freely share the AAM that will result from your initial
 submission.
-
 The journal can either accept your manuscript (with its magic text)
 for consideration for publication, or decline it.  No publishers have
 so far indicated that they will routinely decline manuscripts that
@@ -126,13 +127,9 @@ include the text.
 It might seem pragmatic to routinely adopt this text in our
 manuscripts.  Even if you plan to send the journal to a publisher that
 does not ask you to sign away your rights, it sets a good example to
-others in the community.
-
-## Examples
-
-Although the RRS is fairly new, examples of the RRS are already in the
-literature.  Here are three found by Ross Mounce: 
-[1](https://twitter.com/rmounce/status/1368930651844579335),
+others in the community.  Although the RRS is fairly new, examples of
+the RRS are already in the literature.  Here are three found by Ross
+Mounce: [1](https://twitter.com/rmounce/status/1368930651844579335),
 [2](https://twitter.com/rmounce/status/1368932955465383936),
 [3](https://twitter.com/rmounce/status/1369775832680587270).
 
@@ -192,7 +189,8 @@ It can be assumed that problems 3 and 4 have already occurred given
 the publication of guidance from Wellcome in March 2021 <https://wellcome.org/press-release/publishing-hybrid-open-access-journals>.
 
 Many traditional publishers have signed a letter [objecting to the
-RRS](https://ioppublishing.org/signatories_publish_statement_on_rights_retention_strategy/).  Their fundamental objection seems to me that they are the only
+RRS](https://ioppublishing.org/signatories_publish_statement_on_rights_retention_strategy/).
+Their fundamental objection is  that they are the only
 trusted guardians of the publishing record, and that they need to
 protect their business.
 
@@ -281,50 +279,50 @@ submission.  (+ = to be confirmed.)
 
 
 
-\clearpage
-# Notes.
+<!-- \clearpage -->
+<!-- # Notes. -->
 
-## relevant links:
+<!-- ## relevant links: -->
 
-# Version history
+<!-- # Version history -->
 
-## 0.1
-
-
-Working towards an initial public release for feedback.
-
- <!-- 
- ~/papers/2013_enc/forweb/maps1.md
- -->
-
-\clearpage
-
-# Cut text
+<!-- ## 0.1 -->
 
 
-However, this seems like an outdated idea -- research is not
-a single PDF.  By contrast, papers can evolve over time (and DOIs can
-now be suitably versioned):
+<!-- Working towards an initial public release for feedback. -->
+
+<!--  <\!--  -->
+<!--  ~/papers/2013_enc/forweb/maps1.md -->
+<!--  -\-> -->
+
+<!-- \clearpage -->
+
+<!-- # Cut text -->
 
 
-"However, VOR did not appear on the eighth day of Creation; it really
-is the spin-off of a particular technology, print." Jean-Claude
-Guédon, in response to post <https://oaspa.org/open-post-the-rise-of-immediate-green-oa-undermines-progress/>
+<!-- However, this seems like an outdated idea -- research is not -->
+<!-- a single PDF.  By contrast, papers can evolve over time (and DOIs can -->
+<!-- now be suitably versioned): -->
 
 
-Cut this, as it is a nice point, but perhaps peripheral.
-In other areas, e.g. computing, we have embraced the notion of version
-control, and versioning, to allow us to refer to software at different
-points in time, rather than a single thing.  Why restrict papers to a
-single published version?  As long as researchers are explicit about
-which version of a paper they are citing, there is no problem (ideally
-if the object being cited is freely available).  This idea is
-gradually being adopted in scholarly communications, e.g. moving away
-from "version of record" to "record of versions" (a term coined by
-Bianca Kramer), which seems a much richer idea.
+<!-- "However, VOR did not appear on the eighth day of Creation; it really -->
+<!-- is the spin-off of a particular technology, print." Jean-Claude -->
+<!-- Guédon, in response to post <https://oaspa.org/open-post-the-rise-of-immediate-green-oa-undermines-progress/> -->
 
 
-<https://oaspa.org/open-post-the-rise-of-immediate-green-oa-undermines-progress/>
+<!-- Cut this, as it is a nice point, but perhaps peripheral. -->
+<!-- In other areas, e.g. computing, we have embraced the notion of version -->
+<!-- control, and versioning, to allow us to refer to software at different -->
+<!-- points in time, rather than a single thing.  Why restrict papers to a -->
+<!-- single published version?  As long as researchers are explicit about -->
+<!-- which version of a paper they are citing, there is no problem (ideally -->
+<!-- if the object being cited is freely available).  This idea is -->
+<!-- gradually being adopted in scholarly communications, e.g. moving away -->
+<!-- from "version of record" to "record of versions" (a term coined by -->
+<!-- Bianca Kramer), which seems a much richer idea. -->
+
+
+<!-- <https://oaspa.org/open-post-the-rise-of-immediate-green-oa-undermines-progress/> -->
 
 
 
