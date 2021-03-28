@@ -163,9 +163,13 @@ where it will accept manuscripts using the RRS from authors if (and
 only if) they are funded by plan-S funders (M Phelan, personal
 communication).  The only subscription-based publishers that seem to
 endorse the RRS are the *Royal Society* and the *Microbiology society*
-(<https://www.coalition-s.org/rights-retention-strategy>).
-
-Several concerns have been raised already:
+(<https://www.coalition-s.org/rights-retention-strategy>).  Many
+traditional publishers have signed a letter [objecting to the
+RRS](https://ioppublishing.org/signatories_publish_statement_on_rights_retention_strategy/).
+Their fundamental objection is that they are the only trusted
+guardians of the publishing record, and that they need to protect
+their business.  Several concerns have been raised already by funders
+and commentators:
 
 1. Your paper might be desk-rejected, i.e. rejected by  editorial team
    rather than going out for peer review.
@@ -188,11 +192,6 @@ you please.*
 It can be assumed that problems 3 and 4 have already occurred given
 the publication of guidance from Wellcome in March 2021 <https://wellcome.org/press-release/publishing-hybrid-open-access-journals>.
 
-Many traditional publishers have signed a letter [objecting to the
-RRS](https://ioppublishing.org/signatories_publish_statement_on_rights_retention_strategy/).
-Their fundamental objection is  that they are the only
-trusted guardians of the publishing record, and that they need to
-protect their business.
 
 So although you should be able to use the RRS to freely share your
 AAM, you may meet resistance from publishers, and journals may refuse
@@ -263,15 +262,17 @@ website](https://www.coalition-s.org/rights-retention-strategy/) has
 further material describing the RRS in detail.  Lisa Hinchliffe has
 written a [blog
 post](https://scholarlykitchen.sspnet.org/2021/02/17/rights-retention-strategy)
-on this topic.
+on this topic.  [LIBER](https://libereurope.eu/zeroembargo/) is
+proposing a model law to ensure zero embargos for self-archiving for
+adoption in EU member states.
 
 
 ## Acknowledgements
 
-I thank the following for comments and feedback on this article:
-Rupert Gatti, Ross Mounce, Benjamin Reese, Johan Rooryck, Sally
-Rumsey.  Thanks to Lisa Hinchliffe for comments online.  A CC BY or
-equivalent licence is applied to the AAM arising from this submission.
+I thank the following for comments and feedback: Rupert Gatti, Bianca
+Kramer, Ross Mounce, Benjamin Reese, Johan Rooryck, Sally Rumsey.
+Thanks to Lisa Hinchliffe for comments online.  A CC BY or equivalent
+licence is applied to the AAM arising from this submission.
 
 
 
