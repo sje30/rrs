@@ -6,7 +6,7 @@ output:
   pdf_document:
      includes:
        in_header: "pandoc-header.tex"
-date: 2021-03-27 v0.21
+date: 2021-03-27 v0.22 pre
 urlcolor: blue
 bibliography: <!-- \bibliography{/Users/kjhealy/Documents/bibs/socbib-pandoc.bib} This is a hack for Emacs users so that RefTeX knows where your bibfile is, and you can use RefTeX citation completion in your .md files. -->
 ---
@@ -125,7 +125,7 @@ so far indicated that they will routinely decline manuscripts that
 include the text.
 
 It might seem pragmatic to routinely adopt this text in our
-manuscripts.  Even if you plan to send the journal to a publisher that
+manuscripts.  Even if you plan to send the manuscript to a publisher that
 does not ask you to sign away your rights, it sets a good example to
 others in the community.  Although the RRS is fairly new, examples of
 the RRS are already in the literature.  Here are three found by Ross
@@ -269,9 +269,9 @@ on this topic.
 ## Acknowledgements
 
 I thank the following for comments and feedback on this article:
-Rupert Gatti, Ross Mounce, Johan Rooryck, Sally Rumsey.  Thanks to
-Lisa Hinchliffe for comments online.  A CC BY or equivalent licence is
-applied to the AAM arising from this submission.
+Rupert Gatti, Ross Mounce, Benjamin Reese, Johan Rooryck, Sally
+Rumsey.  Thanks to Lisa Hinchliffe for comments online.  A CC BY or
+equivalent licence is applied to the AAM arising from this submission.
 
 
 
