@@ -93,9 +93,9 @@ after an editor has agreed that your paper has been accepted.
 
 
 So, how can you legally share your AAM immediately upon publication?
-There are several approaches to this [refs], of which the latest is
-the "Rights Retention Strategy" (RRS), developed by cOAlition S.  In
-this primer, I describe what the RRS is and its pros and cons.  I have
+There are several approaches to this, of which the latest is the
+"Rights Retention Strategy" (RRS), developed by cOAlition S.  In this
+primer, I describe what the RRS is and its pros and cons.  I have
 written this because current advice seems conditioned on the principle
 that your work has been supported by a funder that is part of
 cOAlition S.  However the RRS statement is a tool that ALL authors can
