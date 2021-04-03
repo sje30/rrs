@@ -113,16 +113,16 @@ submitting it to a journal:
     A CC BY or equivalent licence is applied to the AAM arising from this submission.
 
 (Authors funded by the Wellcome Trust should use a [two sentence
-version](https:/wellcome.org/grant-funding/guidance/open-access-guidance/complying-with-our-open-access-policy) that ensures their grant number is also listed appropriately.
-This magic sentence alerts the editor at the start of the submission
+version](https:/wellcome.org/grant-funding/guidance/open-access-guidance/complying-with-our-open-access-policy)
+that ensures their grant number is also listed appropriately.  This
+magic sentence alerts the editor at the start of the submission
 process of your intention to share your AAM under a CC BY licence (a
 permissive copyright licence).  Using it upon submission gives you the
 right to freely share the AAM that will result from your initial
-submission.
-The journal can either accept your manuscript (with its magic text)
-for consideration for publication, or decline it.  No publishers have
-so far indicated that they will routinely decline manuscripts that
-include the text.
+submission.  The journal can either accept your manuscript (with its
+magic text) for consideration for publication, or decline it.  No
+publishers have so far indicated that they will routinely decline
+manuscripts that include the text.
 
 It might seem pragmatic to routinely adopt this text in our
 manuscripts.  Even if you plan to send the manuscript to a publisher that
