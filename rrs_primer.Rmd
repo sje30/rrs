@@ -270,7 +270,7 @@ adoption in EU member states.
 ## Acknowledgements
 
 I thank the following for comments and feedback: Rupert Gatti, Lisa
-Hinchliffe, Bianca Kramer, Ross Mounce, Benjamin Reese, Johan Rooryck,
+Hinchliffe, Bianca Kramer, Ross Mounce, Johan Rooryck,
 Sally Rumsey.  A CC BY or equivalent licence is applied to the AAM
 arising from this submission.
 
