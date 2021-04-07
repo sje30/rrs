@@ -8,4 +8,3 @@ the DOI badge at the top of this page, or using the redirect
 https://bit.ly/rrs-primer
 
 This is the DOI to the latest version: **10.5281/zenodo.4641752**
-
