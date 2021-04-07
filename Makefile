@@ -18,3 +18,5 @@ ms_changes-crop.pdf: ms_changes.tex
 clean:
 	rm -f *.html *.pdf *.tex
 
+ms_changes-crop.png: ms_changes-crop.pdf
+	convert $^ $@
