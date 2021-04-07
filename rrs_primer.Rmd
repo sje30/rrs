@@ -6,7 +6,7 @@ output:
   pdf_document:
      includes:
        in_header: "pandoc-header.tex"
-date: 2021-03-28 v0.22
+date: 2021-03-28 v0.23 pre
 urlcolor: blue
 bibliography: <!-- \bibliography{/Users/kjhealy/Documents/bibs/socbib-pandoc.bib} This is a hack for Emacs users so that RefTeX knows where your bibfile is, and you can use RefTeX citation completion in your .md files. -->
 ---
@@ -76,7 +76,7 @@ this diagram.  Authors (bottom) send their first paper (V1) to the
 editor (top) and receive reviews in return.  After two rounds of
 revisions, the editor deems the paper acceptable ("OK").  When the
 paper is accepted, the latest version (3) automatically becomes the
-author-accepted manuscript (AAM) which can be freely shared.  Some
+author accepted manuscript (AAM) which can be freely shared.  Some
 time later, the publisher updates V3 to produce the version of record
 (VOR).](ms_changes-crop.pdf)
 
@@ -269,8 +269,8 @@ adoption in EU member states.
 
 ## Acknowledgements
 
-I thank the following for comments and feedback: Rupert Gatti, Lisa
-Hinchliffe, Bianca Kramer, Ross Mounce, Johan Rooryck,
+I thank the following for comments and feedback: Rupert Gatti, Laura
+Fortunato, Lisa Hinchliffe, Bianca Kramer, Ross Mounce, Johan Rooryck,
 Sally Rumsey.  A CC BY or equivalent licence is applied to the AAM
 arising from this submission.
 
