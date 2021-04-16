@@ -16,7 +16,7 @@ ms_changes-crop.pdf: ms_changes.tex
 # 	pandoc --include-in-header=pandoc-header.tex -o $@ $^
 
 clean:
-	rm -f *.html *.pdf *.tex
+	rm -f *.html *.pdf
 
 ms_changes-crop.png: ms_changes-crop.pdf
 	convert $^ $@
