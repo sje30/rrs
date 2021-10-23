@@ -11,6 +11,9 @@ ms_changes-crop.pdf: ms_changes.tex
 	pdflatex $^
 	pdfcrop ms_changes.pdf
 
+ms_changes-crop.svg: ms_changes-crop.pdf
+	pdf2svg $^ $@
+
 
 # rrs_primer.pdf: rrs_primer.md
 # 	pandoc --include-in-header=pandoc-header.tex -o $@ $^
