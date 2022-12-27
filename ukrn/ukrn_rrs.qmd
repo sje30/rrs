@@ -8,23 +8,17 @@ format:
 ---
 
 
-# Abbreviations
-
-AAM Author accepted manuscript
 
 # What is rights retention?
 
-One of the key developments in scholarly publishing, particularly
-within the UK over the last ten years, has been the rise of open
-access publishing.  Making articles freely available under
-particular copright licences (such as CC-BY) is now a requirement of
-funding from most research councils and funding agencies in the UK and
-beyond.  Journal publishers are now gradually responding to these
-requirements in various ways, e.g. by offering 'gold open access'
-routes, that often require payment of substantial article processing
-charges (APCs) so that their formatted version of your paper can be
-shared.  The final version, provided by the publisher is often called
-the 'version of record' (VOR).
+
+One key development in scholarly publishing is the rise of open access
+publishing.  Making articles freely available under particular
+copright licences (such as CC-BY) is now a requirement of funding from
+most UK research councils and funding agencies.  Journal publishers
+have responded to these requirements in various ways, e.g. by offering
+'gold open access' routes, that often require payment of substantial
+article processing charges (APCs).
 
 Funders also permit 'green open access' as a route to compliance with
 their rules.  This is where the author deposits their version of the
@@ -34,7 +28,7 @@ allowed some form of self-archiving, but usually with constraints,
 e.g. imposition of an embargo period (between 6-24 months).  These
 constraints contradict the funders'requirements.
 
-The 'rights retention strategy' has been developed by coalition S as a
+The "rights retention strategy" has been developed by cOAlition S as a
 way to allow researchers to retain rights on their scholarly writing
 and thus meet the requirements of their funders.  This primer
 describes how authors can retain their rights.
@@ -42,72 +36,75 @@ describes how authors can retain their rights.
 
 # Why should authors retain their rights?
 
-The primary reason that researchers might wish to retain their rights
-is simply to ensure they comply with requirements from their funding
-bodies.  Ignoring these requirements could affect a resarcher's chance
-of future funding.  This might be seen by some researchers as simple
-rule-following with little benefit to themselves.  However, work that
-is available open-access often tends to be more highly cited than work
-that is only available behind a paywall [@Langham-Putrow2021-qf].
-Open-access licences on work also allows for rapid reuse by the
-community, e.g. in books, talks, wikipedia and social media.
+The primary reason why researchers might wish to retain their rights
+is simply to comply with funders' requirements.  Ignoring these
+requirements could affect a resarcher's chance of future funding.
+This might be seen by some researchers as simple rule-following with
+little benefit to themselves.  However, work that is available
+open-access often tends to be more highly cited than work that is only
+available behind a paywall [@Langham-Putrow2021-qf].  Open-access
+licences on work also allows for rapid reuse by the community, e.g. in
+books, talks, wikipedia and social media.
 
 In many creative and professional disciplines, the creator of the work
-maintains rights to their work.  Journal publishers have previously
-stated that they require a transfer of rights (from the researcher to
-the publisher) to enable them to publish the work.  This however is
-simply not true: publishers need only get a non-exclusive permission
-(from the researcher) to publish the work [@Suber2022-dm].
+maintains rights to their work.  Many journal publishers have
+previously stated that they require a transfer of rights (from the
+researcher to the publisher) to enable them to publish the work.  This
+however is simply not true: publishers need only get a non-exclusive
+permission (from the researcher) to publish the work [@Suber2022-dm].
 
 # How to retain rights to your manuscripts
 
 In theory, the process of retaining rights on your manuscripts is
-simple.  Before submitting your work to a journal, put the following
+simple.  Before submitting your work to a journal, add the following
 phrase to your manuscript e.g. in the Acknowledgements
 section:
-
 
     For the purpose of open access, the author has applied a Creative
 	Commons Attribution (CC BY) licence to any Author Accepted
 	Manuscript version arising from this submission.
 
-It is also a good idea to tell the editor, in your cover letter
-alongside the initial submission, that you wish to retain rights to
-any author-accepted manuscript resulting from your submission.
+It is also a good idea to tell the editor, in your cover letter, that
+you wish to retain rights to any author-accepted manuscript resulting
+from your submission.
 
-That's it.  Once your paper is accepted by the editor, your
-author-accepted manuscripted can then be deposited in a suitable
-archive under a CC-BY licence without embargo.  You are then free to
-also share the manuscript however you choose.
+That's it.  If your paper is accepted by the editor after peer-review,
+your author-accepted manuscripted can then be deposited in a suitable
+open repository under a CC-BY licence without embargo.  You are then
+free to also share the manuscript however you choose.
 
 ## What if things go wrong?
 
-Researchers may, rightly, be skeptical, that this approach may
-universally work without concerns.  Open acess advocates have raised
-concerns about the legality [@Khoo2021-tl] and longer-term
-implications [@Kamerlin2020-lq] of rights retention approaches.
-Whilst I personally disagree with those concerns, there are indeed
-several caveats that should be mentioned.
+Researchers may, be skeptical, that this approach may universally work
+without concerns.  Open access advocates have raised concerns about the
+legality [@Khoo2021-tl] and longer-term implications
+[@Kamerlin2020-lq] of rights retention approaches.  Whilst I
+personally disagree with those concerns, there are indeed several
+caveats that should be mentioned.
 
-1. A journal editor may decline reviewing your manuscript because it
-   uses rights retention language.  To date, I am aware of only one
-   journal publisher, ASH, that has chosen this route.  Whilst
-   unfortunate, each publisher may choose not to review articles for
-   any number of reasons.  However, althought many traditional
-   publishers have voiced their concerns about rights retention [],
+1. A journal editor may decline reviewing ("desk reject") your
+   manuscript because it uses rights retention language.  To date, I
+   am aware of only one journal publisher, the American Society of
+   Hematology, that has chosen this route.  Whilst unfortunate, each
+   publisher may decline to review articles for many reasons.
+   However, although many traditional publishers have voiced their
+   concerns about rights retention
+   <https://ioppublishing.org/signatories_publish_statement_on_rights_retention_strategy/>,
    those same publishers are allowing authors to exert their natural
-   rights [see Ross list from 2021].
+   rights
+   <https://github.com/rossmounce/rrs-language-including-outputs>.
 
-2. One leading publisher, Springer Nature, noted in April 2021 that in
-   some cases they will ignore rights retention language in
-   manuscripts [] and require a transfer of copyright.  This will 
-   create a conflict once the manuscript has been
-   editorially accepted.  Ignoring researcher rights on their work is
-   highly unethical, and puts researchers in a very difficult
-   position.  To avoid this stalemate, a researcher could seek
-   confirmation from the editor that they can retain their rights
-   before submitting their manuscript.  A simpler approach would be to
-   avoid that publisher.
+2. One of the largest publishers, Springer Nature, noted in April 2021
+   that in some cases they will effectively ignore rights retention
+   language in manuscripts
+   <https://www.springernature.com/gp/advancing-discovery/blog/blogposts/continuing-the-open-access-transition/19045440>
+   and require a transfer of copyright.  This will create a conflict
+   once the manuscript has been editorially accepted.  Ignoring
+   researcher rights on their work is highly unethical, and puts
+   researchers in a very difficult position.  To avoid this stalemate,
+   a researcher could seek confirmation from the editor that they can
+   retain their rights before submitting their manuscript.  A simpler
+   approach would be to avoid that publisher.
    
 3. If you publish your work in a subscription journal, as long as you
    make your AAM freely available without embargo, you do not need to
@@ -116,7 +113,6 @@ several caveats that should be mentioned.
    publish your work in an open-acess journal, you may still need to
    pay an APCs to have your work published.  Often these costs are
    covered by institutional arrangements with the publisher.
-
 
 The route to open access is therefore often more complicated than it
 need be.  If in doubt, researchers may seek local advice e.g. from
@@ -135,18 +131,11 @@ retention policies.  These policies typically give the institution a
 non-exclusive right to archive author accepted manuscripts, and
 provide the researcher with an extra layer of institutional support in
 the (hopefully rare) case that a publisher raises a concern with
-rights retention language in the manuscript.  Table X lists current
-institutional policies; this list is expected to grow considerably
-during 2023 and 2024.
+rights retention language in the manuscript.  A list of current
+institutional policies is available at:
+<https://github.com/sje30/rrs/blob/main/ukinstitutions.csv> ; this
+list is expected to grow considerably during 2023 and 2024.
 
-
-# Further reading
-
-
-Earlier approaches, e.g. SPARC addendum.
-
-
-Journal checker tool.
 
 # References
 
