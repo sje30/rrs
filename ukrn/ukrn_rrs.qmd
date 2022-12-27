@@ -57,14 +57,19 @@ maintains rights to their work.  Journal publishers have previously
 stated that they require a transfer of rights (from the researcher to
 the publisher) to enable them to publish the work.  This however is
 simply not true: publishers need only get a non-exclusive permission
-(from the researcher) to publish the work [@Subser2022-dm].
+(from the researcher) to publish the work [@Suber2022-dm].
 
 # How to retain rights to your manuscripts
 
 In theory, the process of retaining rights on your manuscripts is
 simple.  Before submitting your work to a journal, put the following
-phrase to your manuscript e.g. inthe Acknowledgements
+phrase to your manuscript e.g. in the Acknowledgements
 section:
+
+
+    For the purpose of open access, the author has applied a Creative
+	Commons Attribution (CC BY) licence to any Author Accepted
+	Manuscript version arising from this submission.
 
 It is also a good idea to tell the editor, in your cover letter
 alongside the initial submission, that you wish to retain rights to
