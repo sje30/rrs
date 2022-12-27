@@ -21,7 +21,7 @@ format:
  
 
 One key development in scholarly publishing is the rise of open
-access.  Making articles freely available under particular copright
+access.  Making articles freely available under particular copyright
 licences (such as CC-BY) is now required by UK research councils and
 other funding bodies.  Journal publishers have responded to these
 requirements in various ways, e.g. by offering 'gold open access'
@@ -31,7 +31,7 @@ charges (APCs).
 Funders also permit 'green open access' as a route to compliance with
 their rules.  This is where the author deposits their version of the
 manuscript (the author accepted manuscript, AAM) into an institutional
-repository or similar archvie.  Many publishers have previously
+repository or similar archive.  Many publishers have previously
 allowed some form of self-archiving, but usually with constraints,
 e.g. imposition of an embargo period (between 6-24 months).  These
 constraints contradict funders' requirements that prohibit any embargo period.
@@ -46,7 +46,7 @@ describes how authors can retain their rights.
 
 The primary reason why researchers might wish to retain their rights
 is simply to comply with funders' requirements.  Ignoring these
-requirements could affect a resarcher's chance of future funding.
+requirements could affect a researcher's chance of future funding.
 This might be seen by some researchers as simple rule-following with
 little benefit to themselves.  However, work that is available
 open-access often tends to be more highly cited than work that is only
@@ -56,7 +56,7 @@ books, talks, wikipedia and social media.
 
 In many professional disciplines, the creator of the work naturally
 maintains rights to their work.  Many journal publishers have
-previously stated that they require exclsusive rights to publish the
+previously stated that they require exclusive rights to publish the
 work.  This is simply not true [@Suber2022-dm].
 
 # How to retain rights to your manuscripts
@@ -75,13 +75,13 @@ you wish to retain rights to any author-accepted manuscript resulting
 from your submission.
 
 That's it.  If your paper is accepted by the editor after peer-review,
-your author-accepted manuscripted can then be deposited in a suitable
+your author accepted manuscript can then be deposited in a suitable
 open repository under a CC-BY licence without embargo.  You are then
 free to also share the manuscript however you choose.
 
 ## What if things go wrong?
 
-Researchers may, be skeptical, that this approach may universally work
+Researchers may be sceptical that this approach may always work
 without concerns.  Open access advocates have raised concerns about the
 legality [@Khoo2021-tl] and longer-term implications
 [@Kamerlin2020-lq] of rights retention approaches.  Whilst I
@@ -116,7 +116,7 @@ caveats that should be mentioned.
    make your AAM freely available without embargo, you do not need to
    pay the journal an APC.  (The journal may still demand other
    charges, such as for colour figures in-print.)  However, if you
-   publish your work in an open-acess journal, you may still need to
+   publish your work in an open-access journal, you may still need to
    pay an APCs to have your work published.  Often these costs are
    covered by institutional arrangements with the publisher.
 
@@ -131,7 +131,7 @@ compliance with funders' OA policies.
 ## Institutional support for rights retention
 
 Researchers can use the rights retention strategy by themselves to
-comply with funder's requirements for open access.  To support their
+comply with funders' requirements for open access.  To support their
 researchers, several UK institutions have already adopted rights
 retention policies that apply to their employees.  These policies
 typically give the institution a non-exclusive right to archive author
