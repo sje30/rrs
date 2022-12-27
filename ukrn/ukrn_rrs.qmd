@@ -1,24 +1,32 @@
 ---
 title: A primer on the rights retention strategy
 author: Stephen J Eglen
-date: December 2022
+date: today
+date-format: iso
 bibliography: ukrn.bib
+geometry:
+  margin=25mm
 format:
-  pdf
+  pdf:
+    pdf-engine: pdflatex
+    papersize: A4
+    keep-tex: true
+    documentclass: article
+    include-in-header: header.tex
+    include-before-body: before.tex
+    fontfamily: mathpazo
 ---
 
-
-
 # What is rights retention?
+ 
 
-
-One key development in scholarly publishing is the rise of open access
-publishing.  Making articles freely available under particular
-copright licences (such as CC-BY) is now a requirement of funding from
-most UK research councils and funding agencies.  Journal publishers
-have responded to these requirements in various ways, e.g. by offering
-'gold open access' routes, that often require payment of substantial
-article processing charges (APCs).
+One key development in scholarly publishing is the rise of open
+access.  Making articles freely available under particular copright
+licences (such as CC-BY) is now required by UK research councils and
+other funding bodies.  Journal publishers have responded to these
+requirements in various ways, e.g. by offering 'gold open access'
+routes, that often require payment of substantial article processing
+charges (APCs).
 
 Funders also permit 'green open access' as a route to compliance with
 their rules.  This is where the author deposits their version of the
@@ -26,7 +34,7 @@ manuscript (the author accepted manuscript, AAM) into an institutional
 repository or similar archvie.  Many publishers have previously
 allowed some form of self-archiving, but usually with constraints,
 e.g. imposition of an embargo period (between 6-24 months).  These
-constraints contradict the funders'requirements.
+constraints contradict funders' requirements that prohibit any embargo period.
 
 The "rights retention strategy" has been developed by cOAlition S as a
 way to allow researchers to retain rights on their scholarly writing
@@ -46,12 +54,10 @@ available behind a paywall [@Langham-Putrow2021-qf].  Open-access
 licences on work also allows for rapid reuse by the community, e.g. in
 books, talks, wikipedia and social media.
 
-In many creative and professional disciplines, the creator of the work
+In many professional disciplines, the creator of the work naturally
 maintains rights to their work.  Many journal publishers have
-previously stated that they require a transfer of rights (from the
-researcher to the publisher) to enable them to publish the work.  This
-however is simply not true: publishers need only get a non-exclusive
-permission (from the researcher) to publish the work [@Suber2022-dm].
+previously stated that they require exclsusive rights to publish the
+work.  This is simply not true [@Suber2022-dm].
 
 # How to retain rights to your manuscripts
 
@@ -127,12 +133,12 @@ compliance with funders' OA policies.
 Researchers can use the rights retention strategy by themselves to
 comply with funder's requirements for open access.  To support their
 researchers, several UK institutions have already adopted rights
-retention policies.  These policies typically give the institution a
-non-exclusive right to archive author accepted manuscripts, and
-provide the researcher with an extra layer of institutional support in
-the (hopefully rare) case that a publisher raises a concern with
-rights retention language in the manuscript.  A list of current
-institutional policies is available at:
+retention policies that apply to their employees.  These policies
+typically give the institution a non-exclusive right to archive author
+accepted manuscripts.  The researcher gains an extra layer of
+institutional support in the (hopefully rare) case that a publisher
+raises a concern with rights retention language in the manuscript.  A
+list of current institutional policies is available at:
 <https://github.com/sje30/rrs/blob/main/ukinstitutions.csv> ; this
 list is expected to grow considerably during 2023 and 2024.
 
