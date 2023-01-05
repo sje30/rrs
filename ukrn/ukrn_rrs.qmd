@@ -1,5 +1,5 @@
 ---
-title: A primer on the rights retention strategy
+title: A primer on the rights retention strategy (version 0.2)
 author: Stephen J Eglen
 date: today
 date-format: iso
@@ -36,10 +36,17 @@ allowed some form of self-archiving, but usually with constraints,
 e.g. imposition of an embargo period (between 6-24 months).  These
 constraints contradict funders' requirements that prohibit any embargo period.
 
-The "rights retention strategy" has been developed by cOAlition S as a
-way to allow researchers to retain rights on their scholarly writing
-and thus meet the requirements of their funders.  This primer
-describes how authors can retain their rights.
+As a way of overcoming these restrictions, researchers and their
+institutions have developed their own policies to permit sharing of
+their work.  Perhaps the most well-known example of these is the
+policy led by [Harvard](https://osc.hul.harvard.edu/policies/) faculty
+in 2008.  Within the UK, proposals for a UK Scholarly Communcations
+Licence [UK-SCL](https://ukscl.ac.uk/) have been created.  Most
+recently, the "rights retention strategy" has been developed by a
+group of international funders, cOAlition S, to allow researchers to
+retain rights on their scholarly writing and thus meet the
+requirements of their funders.  This primer describes how authors can
+retain their rights using this rights retention strategy.
 
 
 # Why should authors retain their rights?
@@ -51,8 +58,10 @@ This might be seen by some researchers as simple rule-following with
 little benefit to themselves.  However, work that is available
 open-access often tends to be more highly cited than work that is only
 available behind a paywall [@Langham-Putrow2021-qf].  Open-access
-licences on work also allows for rapid reuse by the community, e.g. in
-books, talks, wikipedia and social media.
+licences on work allows for rapid reuse by everyone in the community,
+including the researchers who originally made the material.  This
+includes, but is not limited to to books, talks, wikipedia and social
+media, for teaching and research.
 
 In many professional disciplines, the creator of the work naturally
 maintains rights to their work.  Many journal publishers have
@@ -82,11 +91,11 @@ free to also share the manuscript however you choose.
 ## What if things go wrong?
 
 Researchers may be sceptical that this approach may always work
-without concerns.  Open access advocates have raised concerns about the
-legality [@Khoo2021-tl] and longer-term implications
-[@Kamerlin2020-lq] of rights retention approaches.  Whilst I
-personally disagree with those concerns, there are indeed several
-caveats that should be mentioned.
+without concerns.  Open access advocates have raised concerns about
+the legality [@Khoo2021-tl] and longer-term implications
+[@Kamerlin2020-lq] of rights retention approaches.  Although those
+concerns have yet to materialise, there are indeed several caveats
+that should be mentioned:
 
 1. A journal editor may decline reviewing ("desk reject") your
    manuscript because it uses rights retention language.  To date, I
@@ -130,21 +139,31 @@ compliance with funders' OA policies.
 
 ## Institutional support for rights retention
 
-Researchers can use the rights retention strategy by themselves to
-comply with funders' requirements for open access.  To support their
-researchers, several UK institutions have already adopted rights
-retention policies that apply to their employees.  These policies
-typically give the institution a non-exclusive right to archive author
-accepted manuscripts.  The researcher gains an extra layer of
-institutional support in the (hopefully rare) case that a publisher
-raises a concern with rights retention language in the manuscript.  A
-list of current institutional policies is available at:
+Researchers can and should use the rights retention strategy by
+themselves to comply with funders' requirements for open access.  To
+support their researchers, several UK institutions have already
+adopted rights retention policies that apply to their employees.
+These policies typically give the institution a non-exclusive right to
+archive author accepted manuscripts.  The researcher gains an extra
+layer of institutional support in the (hopefully rare) case that a
+publisher raises a concern with rights retention language in the
+manuscript.  A list of current institutional policies is available at:
 <https://github.com/sje30/rrs/blob/main/ukinstitutions.csv> ; this
-list is expected to grow considerably during 2023 and 2024.
+list is expected to grow considerably during 2023 and 2024.  However,
+even with an institutional policy supporting the researcher, it is
+pragmatic to still include the rights retention statement in your manuscript.
 
+
+
+<!-- (setq reftex-default-bibliography '("ukrn.bib")) -->
+
+<!-- 
+
+(quarto-mode-bibliography-entry)
+(setq reftex-cite-format "@%l")
+-->
 
 # References
 
 ::: {#refs}
 :::
-
