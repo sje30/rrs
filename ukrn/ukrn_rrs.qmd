@@ -30,9 +30,10 @@ able to also share their digital artifacts.  The use of standard
 licences, particularly the creative commons (CC) family, makes our
 jobs as academics relatively painless and robust.  This ability to
 share our scholarly products is a key academic principle that I hope
-most will find natural and uncontroversial.  Furthemore, most UK grant
-agencies require data management plans as a condition of funding to
-maximise the potential reuse of the research that they fund.
+most researchers will find natural and uncontroversial.  Furthemore,
+most UK grant agencies require data management plans as a condition of
+funding to maximise the potential reuse of the research that they
+fund.
 
 In parallel to this growth of open reserch, UK research councils and
 major funding bodies now require theat our published research articles
@@ -61,8 +62,10 @@ Within the UK, proposals for a UK Scholarly Communcations Licence
 the "rights retention strategy" has been developed by a group of
 international funders, cOAlition S, to allow researchers to retain
 rights on their scholarly writing and thus meet the requirements of
-their funders.  This primer describes how authors can retain their
-rights using this rights retention strategy.
+their funders.
+
+This guide describes how authors can retain rights on their
+manuscripts using the rights retention strategy.
 
 
 # Why should authors retain their rights?
