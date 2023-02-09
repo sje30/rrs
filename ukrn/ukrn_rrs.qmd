@@ -19,19 +19,19 @@ format:
 
 # What is rights retention?
 
-The modern internet has transformed the way that many researchers
-work.  We are now able to rapidly share both digital data and computer
-programmes for processing that data.  This freedom to share our data
-and digitial artifacts is exciting and is rapidly transforming many
+The internet has transformed the way that many researchers work.  We
+can now rapidly share both digital research artifacts and computer
+programmes for processing the artifacts.  This freedom to share our
+digitial artifacts is exciting and is rapidly transforming many
 academic disciplines.  A range of [copyright
 licences](https://libguides.cam.ac.uk/copyright/researchers) now exist
 to allow researchers to both retain rights on their work whilst being
-able to also share their digital artifacts.  The use of standard
-licences, particularly the creative commons (CC) family, makes our
-jobs as academics relatively painless and robust.  This ability to
-share our scholarly products is a key academic principle that I hope
-most researchers will find natural and uncontroversial.  Furthemore,
-most UK grant agencies require data management plans as a condition of
+able to also share their work.  The use of standard licences,
+particularly the creative commons (CC) family, makes our jobs as
+academics relatively painless and robust.  This ability to share our
+scholarly products is a key academic principle that hopefully most
+researchers will find natural and uncontroversial.  Furthemore, most
+UK grant agencies require data management plans as a condition of
 funding to maximise the potential reuse of the research that they
 fund.
 
@@ -70,8 +70,8 @@ manuscripts using the rights retention strategy.
 
 # Why should authors retain their rights?
 
-Authors should retain their rights so that it is they, not a third
-party, retains control over uses of their own manuscripts. This
+Authors should retain their rights so that it they, not a third
+party, retain control over uses of their own manuscripts. This
 includes when and to whom their manuscript can be disseminated, and
 means that researchers treat manuscripts in a similar fashion to other
 digital artifacts that they wish to share.  Another important reason
@@ -176,8 +176,8 @@ institution a non-exclusive right to archive author accepted
 manuscripts and make them available via their repository.  The
 researcher gains an extra layer of institutional support in the
 (hopefully rare) case that a publisher raises a concern with rights
-retention language in the manuscript.  (i.e. an author wishing to
-retain rights that are rightfully theirs). Some universities have
+retention language in the manuscript  (i.e. an author wishing to
+retain rights that are rightfully theirs).  Some universities have
 publicly stated their support for their researchers should any of
 their authors be challenged by a publisher.  A list of current
 institutional policies is available at:
