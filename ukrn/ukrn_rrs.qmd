@@ -1,5 +1,5 @@
 ---
-title: A primer on the rights retention strategy (version 0.2)
+title: A researcher's guide to using the rights retention strategy (version 0.3)
 author: Stephen J Eglen
 date: today
 date-format: iso
@@ -51,17 +51,18 @@ constraints, e.g. imposition of an embargo period (between 6-24
 months).  These constraints contradict funders' requirements that
 prohibit any embargo period.
 
-As a way of overcoming these restrictions, researchers and their
-institutions have developed their own policies to permit sharing of
-their work.  Perhaps the most well-known example of these is the
-policy led by [Harvard](https://osc.hul.harvard.edu/policies/) faculty
-in 2008.  Within the UK, proposals for a UK Scholarly Communcations
-Licence [UK-SCL](https://ukscl.ac.uk/) have been created.
-Internationally, the "rights retention strategy" has been developed by
-a group of international funders, cOAlition S, to allow researchers to
-retain rights on their scholarly writing and thus meet the
-requirements of their funders.  This primer describes how authors can
-retain their rights using this rights retention strategy.
+In response to these restrictive embargo periods, and to encourage
+open research, academic institutions and researchers have developed
+their own policies to permit sharing of their work.  Perhaps the most
+well-known example of these is the policy led by
+[Harvard](https://osc.hul.harvard.edu/policies/) faculty in 2008.
+Within the UK, proposals for a UK Scholarly Communcations Licence
+[UK-SCL](https://ukscl.ac.uk/) have been created.  Internationally,
+the "rights retention strategy" has been developed by a group of
+international funders, cOAlition S, to allow researchers to retain
+rights on their scholarly writing and thus meet the requirements of
+their funders.  This primer describes how authors can retain their
+rights using this rights retention strategy.
 
 
 # Why should authors retain their rights?
@@ -72,7 +73,7 @@ includes when and to whom their manuscript can be disseminated, and
 means that researchers treat manuscripts in a similar fashion to other
 digital artifacts that they wish to share.  Another important reason
 why researchers might wish to retain their rights is to comply
-with funders' requirements.  Ignoring these requirements could affect
+with funders' requirements.  Ignoring funders' requirements could affect
 a researcher's chance of future funding.  This might be seen by some
 researchers as simple rule-following with little benefit to
 themselves.  However, work that is available open-access tends
@@ -106,7 +107,10 @@ from your submission.
 That's it.  If your paper is accepted by the editor after peer-review,
 your author accepted manuscript can then be deposited in a suitable
 open repository under a CC-BY licence without embargo.  You are then
-free to also share the manuscript however you choose.
+free to also share the manuscript however you choose.  (Some
+disciplines may prefer other forms of creative commons licence that
+prevent e.g. commerical use; many funders allow this but it may
+require you to apply for an exemption.)
 
 This approach is endorsed and recommended by major research funders,
 including the Wellcome Trust and all of the UK Research Councils.
