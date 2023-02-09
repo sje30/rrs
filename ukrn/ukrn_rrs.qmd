@@ -20,9 +20,9 @@ format:
 # What is rights retention?
 
 The internet has transformed the way that many researchers work.  We
-can now rapidly share both digital research artifacts and computer
-programmes for processing the artifacts.  This freedom to share our
-digitial artifacts is exciting and is rapidly transforming many
+can now rapidly share both digital research artefacts and computer
+programmes for processing the artefacts.  This freedom to share our
+digital artefacts is exciting and is rapidly transforming many
 academic disciplines.  A range of [copyright
 licences](https://libguides.cam.ac.uk/copyright/researchers) now exist
 to allow researchers to both retain rights on their work whilst being
@@ -30,14 +30,14 @@ able to also share their work.  The use of standard licences,
 particularly the creative commons (CC) family, makes our jobs as
 academics relatively painless and robust.  This ability to share our
 scholarly products is a key academic principle that hopefully most
-researchers will find natural and uncontroversial.  Furthemore, most
+researchers will find natural and uncontroversial.  Furthermore, most
 UK grant agencies require data management plans as a condition of
 funding to maximise the potential reuse of the research that they
 fund.
 
-In parallel to this growth of open reserch, UK research councils and
-major funding bodies now require theat our published research articles
-must freely available without embaro under particular copyright
+In parallel to this growth of open research, UK research councils and
+major funding bodies now require that our published research articles
+must freely available without embargo under particular copyright
 licences (such as CC-BY).  Journal publishers have responded to these
 requirements in various ways, e.g. by offering 'gold open access'
 routes, that often require payment of substantial article processing
@@ -45,24 +45,24 @@ charges (APCs).
 
 Funders also permit 'green open access' as a route to compliance with
 their rules.  This is where the author makes their version of the
-manuscript (the author accepted manuscript, AAM) freely available via
-an institutional repository or similar archive.  Many publishers have
-previously allowed some form of self-archiving, but usually with
-constraints, e.g. imposition of an embargo period (between 6-24
-months).  These constraints contradict funders' requirements that
-prohibit any embargo period.
+manuscript (the peer-reviewed author accepted manuscript, AAM) freely
+available via an institutional repository or similar archive.  Many
+publishers have previously allowed some form of self-archiving, but
+usually with constraints, e.g. imposition of an embargo period
+(between 6-24 months).  These constraints contradict funders'
+requirements that prohibit any embargo period.
 
 In response to these restrictive embargo periods, and to encourage
 open research, academic institutions and researchers have developed
 their own policies to permit sharing of their work.  Perhaps the most
 well-known example of these is the policy led by
 [Harvard](https://osc.hul.harvard.edu/policies/) faculty in 2008.
-Within the UK, proposals for a UK Scholarly Communcations Licence
+Within the UK, proposals for a UK Scholarly Communications Licence
 [UK-SCL](https://ukscl.ac.uk/) have been created.  Internationally,
-the "rights retention strategy" has been developed by a group of
-international funders, cOAlition S, to allow researchers to retain
-rights on their scholarly writing and thus meet the requirements of
-their funders.
+the ``[rights retention strategy](https://www.coalition-s.org/rights-retention-strategy/)''
+been developed by a group of international funders, cOAlition S, to
+allow researchers to retain rights on their scholarly writing and thus
+meet the requirements of their funders.
 
 This guide describes how authors can retain rights on their
 manuscripts using the rights retention strategy.
@@ -74,7 +74,7 @@ Authors should retain their rights so that it they, not a third
 party, retain control over uses of their own manuscripts. This
 includes when and to whom their manuscript can be disseminated, and
 means that researchers treat manuscripts in a similar fashion to other
-digital artifacts that they wish to share.  Another important reason
+digital artefacts that they wish to share.  Another important reason
 why researchers might wish to retain their rights is to comply
 with funders' requirements.  Ignoring funders' requirements could affect
 a researcher's chance of future funding.  This might be seen by some
@@ -112,7 +112,7 @@ your author accepted manuscript can then be deposited in a suitable
 open repository under a CC-BY licence without embargo.  You are then
 free to also share the manuscript however you choose.  (Some
 disciplines may prefer other forms of creative commons licence that
-prevent e.g. commerical use; many funders allow this but it may
+prevent e.g. commercial use; many funders allow this but it may
 require you to apply for an exemption.)
 
 This approach is endorsed and recommended by major research funders,
@@ -152,7 +152,7 @@ to be aware of:
    pay the journal an APC.  (The journal may still demand other
    charges, such as for colour figures in-print.)  However, if you
    publish your work in an open-access journal, you may still need to
-   pay an APCs to have your work published.  Often these costs are
+   pay an APC to have your work published.  Often these costs are
    covered by institutional arrangements with the publisher.
 
 The route to open access can occasionally be more complicated than it
@@ -180,7 +180,7 @@ retention language in the manuscript  (i.e. an author wishing to
 retain rights that are rightfully theirs).  Some universities have
 publicly stated their support for their researchers should any of
 their authors be challenged by a publisher.  A list of current
-institutional policies is available at:
+UK institutional policies is available at:
 <https://github.com/sje30/rrs/blob/main/ukinstitutions.csv> ; this
 list is expected to grow considerably during 2023 and 2024.  However,
 even with an institutional policy supporting the researcher, it is
@@ -225,3 +225,4 @@ implemented almost all of their suggestions.  Of note:
 
 In addition to these reviewer suggestions, I've added a brief closing comment.
    
+and now spell-checked!
