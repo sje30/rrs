@@ -21,9 +21,9 @@ format:
  
 
 One key development in scholarly publishing is the rise of open
-access.  Making articles freely available under particular copyright
+access.  Making articles freely available without embaro under particular copyright
 licences (such as CC-BY) is now required by UK research councils and
-other funding bodies.  Journal publishers have responded to these
+other major funding bodies.  Journal publishers have responded to these
 requirements in various ways, e.g. by offering 'gold open access'
 routes, that often require payment of substantial article processing
 charges (APCs).
@@ -88,6 +88,9 @@ your author accepted manuscript can then be deposited in a suitable
 open repository under a CC-BY licence without embargo.  You are then
 free to also share the manuscript however you choose.
 
+This approach is endorsed and recommended by major research funders,
+including the Wellcome Trust and all of the UK Research Councils.
+
 ## What if things go wrong?
 
 Researchers may be sceptical that this approach may always work
@@ -134,7 +137,8 @@ need be.  If in doubt, researchers may seek local advice e.g. from
 library staff, when choosing which journal to submit their work to,
 and funding sources for any charges. The journal checker tool
 <https://journalcheckertool.org/> provides information about journal
-compliance with funders' OA policies.
+compliance with funders' OA policies, and provides simple options for
+you to follow.
 
 
 ## Institutional support for rights retention
