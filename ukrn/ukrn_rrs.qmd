@@ -187,7 +187,16 @@ even with an institutional policy supporting the researcher, it is
 pragmatic to still include the rights retention statement in your
 manuscript.
 
+# Closing comments
 
+Adopting the rights retention language in manuscripts is a clear and
+simple step that all authors can take to maintain rights over their
+work.  It has been adopted successfully in the last few years by many
+authors.  Despite several publishers raising concerns with it in 2021,
+there has yet to be any major objection raised when researchers assert
+their natural rights.  To further support researchers, UK institutions
+are adopting policies to allow their employees to share their author
+accepted manuscripts without embargo.
 
 <!-- (setq reftex-default-bibliography '("ukrn.bib")) -->
 
@@ -201,3 +210,18 @@ manuscript.
 
 ::: {#refs}
 :::
+
+# Changes
+
+## version 0.3
+
+In this version I thank feedback from the several reviewers.  I have
+implemented almost all of their suggestions.  Of note:
+
+1. The title has been changed.
+2. A new opening paragraph has been added to highlight the benefits of
+   open research, which in turn relies on licencing.
+3. I have tightened the section 'What if things go wrong'?
+
+In addition to these reviewer suggestions, I've added a brief closing comment.
+   
