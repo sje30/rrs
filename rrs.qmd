@@ -19,7 +19,8 @@ This page contains information about UK universities that have
 institutional rights retention policies.  The raw data underlying
 these visualisations is available on
 [github](https://github.com/sje30/rrs/blob/main/ukinstitutions.csv)
-along with the code that generates this page.
+along with the code that generates this page.  Please also visit a
+list of [similar policies worldwide](https://cyber.harvard.edu/hoap/Additional_resources#Policies_of_the_kind_recommended_in_the_guide).
 
 
 ```{r echo=FALSE, include=FALSE}
