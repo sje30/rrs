@@ -1,18 +1,25 @@
 ---
-title: "Institutional Rights Retention Policies in the UK"
+title: "UK Institutional Rights Retention Policies"
 subtitle: (CC-BY) <https://sje30.github.io/rrs/rrs.html>
-date: 2023-03-27
+date: 2023-03-18
 date-format: iso
 author:
   - name: Stephen J. Eglen
     orcid: 0000-0001-8607-8025
-    affiliations:
-      -name: University of Cambridge
+    affiliation: University of Cambridge
 format:
   html:
     embed-resources: false
 ---
 
+
+# Introduction
+
+This page contains information about UK universities that have
+institutional rights retention policies.  The raw data underlying
+these visualisations is available on
+[github](https://github.com/sje30/rrs/blob/main/ukinstitutions.csv)
+along with the code that generates this page.
 
 
 ```{r echo=FALSE, include=FALSE}
