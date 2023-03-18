@@ -1,0 +1,39 @@
+---
+title: "Institutional Rights Retention Policies in the UK"
+subtitle: (CC-BY) <https://tinyurl.com/rights2023>
+date: 2023-03-27
+date-format: iso
+author:
+  - name: Stephen J. Eglen
+    orcid: 0000-0001-8607-8025
+    affiliations:
+      -name: University of Cambridge
+format:
+  html:
+    embed-resources: false
+---
+
+```{r}
+library(leaflet)
+library(tidyverse)
+library(htmltools)
+library(DT)
+cities = read_csv("places.csv")
+rr     = read_csv("ukinstitutions.csv", comment = "#")
+merged <- merge(x=rr, y=cities, by="Institution")
+merged <- merged %>% mutate(label = sprintf("<a href=\"%s\">%s</a>",
+                                            Reference, Institution))
+leaflet(merged, width=600, height=600) %>% addTiles() %>%
+  addMarkers(~long, ~lat, popup = ~label,
+            options = popupOptions(closeButton = TRUE))
+```
+
+Click on marker and then on Uni name to see their policy.
+Sheffield and London have 2 pins; zoom-in to see them.
+
+
+## Underlying data
+
+```{r}
+datatable(rr)
+```
