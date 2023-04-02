@@ -25,5 +25,5 @@ ms_changes-crop.png: ms_changes-crop.pdf
 	convert $^ $@
 
 
-rrs.html: rrs.qmd
+rrs.html: rrs.qmd  ukinstitutions.csv places.csv
 	quarto render  $<
