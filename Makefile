@@ -1,3 +1,5 @@
+all: rrs.html
+
 rrs_primer.pdf: rrs_primer.Rmd ms_changes-crop.pdf pandoc-header.tex
 	Rscript -e 'rmarkdown::render("$<")'
 

@@ -8,7 +8,6 @@ output:
        in_header: "pandoc-header.tex"
 date: 2021-04-07 v0.23
 urlcolor: blue
-bibliography: <!-- \bibliography{/Users/kjhealy/Documents/bibs/socbib-pandoc.bib} This is a hack for Emacs users so that RefTeX knows where your bibfile is, and you can use RefTeX citation completion in your .md files. -->
 ---
 
 
@@ -168,19 +167,20 @@ traditional publishers have signed a letter [objecting to the
 RRS](https://ioppublishing.org/signatories_publish_statement_on_rights_retention_strategy/).
 Their fundamental objection is that they are the only trusted
 guardians of the publishing record, and that they need to protect
-their business.  Several concerns have been raised already by funders
-and commentators:
+their business.  Several concerns have so-far been raised:
 
 1. Your paper might be desk-rejected, i.e. rejected by  editorial team
    rather than going out for peer review.
 
 2. You might have your paper accepted in principle, only to find that
-the publisher demands some embargo on publication of the AAM as a
-condition of publishing the paper.  However, since that request for
-embargo comes after you have claimed a CC BY licence, your CC BY
-licence takes legal precedence over any restriction the publisher
-tries to place on your AAM.  *You are free to do with the AAM as
-you please.*
+the publisher demands an embargo on publication of your AAM as a
+condition of publishing the paper.  ([Springer Nature are adopting
+this
+stance](https://www.springernature.com/gp/advancing-discovery/blog/blogposts/continuing-the-open-access-transition/19045440).)
+However, since that request for embargo comes after you have claimed a
+CC BY licence, your CC BY licence takes legal precedence over any
+restriction the publisher tries to place on your AAM.  *You are free
+to do with the AAM as you please.*
 
 3. You might be asked to pay an APC up-front before the paper is sent
    out to review.
@@ -329,4 +329,5 @@ arising from this submission.
 
 
 <!--  LocalWords:  cOAlition AAM RRS funder OA VOR funders
- -->
+ --
+>

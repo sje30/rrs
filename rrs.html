@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.4.14">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,9 +19,10 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -48,43 +49,13 @@ pre.numberSource code > span > a:first-child::before
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
     padding: 0 4px; width: 4em;
-    color: #aaaaaa;
   }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
 div.sourceCode
   {   }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -137,7 +108,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
-    Stephen J. Eglen <a href="https://orcid.org/0000-0001-8607-8025" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+    <p class="author">Stephen J. Eglen <a href="https://orcid.org/0000-0001-8607-8025" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
   </div>
     <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -167,8 +138,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>This page contains information about UK universities that have institutional rights retention policies. The raw data underlying these visualisations is available on <a href="https://github.com/sje30/rrs/blob/main/ukinstitutions.csv">github</a> along with the code that generates this page. Please also visit a list of <a href="https://cyber.harvard.edu/hoap/Additional_resources#Policies_of_the_kind_recommended_in_the_guide">similar policies worldwide</a>.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="htmlwidget-ade943d219202b6e0bc4" style="width:100%;height:650px;" class="leaflet html-widget "></div>
-<script type="application/json" data-for="htmlwidget-ade943d219202b6e0bc4">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[51.5219,51.5115,53.3786,57.1648,52.1951,54.765,55.9533,54.0104,53.8067,53.4048,53.4668,54.9792,51.7548,53.3814,56.3417,53.9461],[-0.1303,-0.116,-1.4659,-2.1015,0.1313,-1.5782,-3.1883,-2.7877,-1.555,-2.9653,-2.2339,-1.6147,-1.2544,-1.4884,-2.7943,-1.0518],null,null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":true,"className":""},["<a href=\"https://www.bbk.ac.uk/about-us/policies/open-access-research\">Birkbeck University of London<\/a>","<a href=\"https://www.kcl.ac.uk/researchsupport/open-access/rights-retention-strategy\">King's College London<\/a>","<a href=\"https://libguides.shu.ac.uk/OpenAccess/rightsretention\">Sheffield Hallam University<\/a>","<a href=\"https://www.abdn.ac.uk/staffnet/documents/policy-zone-research-and-knowledge-exchange/Research_Publications_Policy_2023.pdf\">University of Aberdeen<\/a>","<a href=\"https://www.openaccess.cam.ac.uk/cambridge-open-access-policy/self-archiving-policy\">University of Cambridge<\/a>","<a href=\"https://www.durham.ac.uk/research/ethics--governance/research-publications-policy/\">University of Durham<\/a>","<a href=\"https://www.ed.ac.uk/information-services/about/policies-and-regulations/research-publications\">University of Edinburgh<\/a>","<a href=\"https://www.lancaster.ac.uk/library/open-research/research-publications-and-rights-retention-policy-/index.php\">University of Lancaster<\/a>","<a href=\"https://ris.leeds.ac.uk/research-excellence/university-of-leeds-publications-policy/\">University of Leeds<\/a>","<a href=\"https://www.n8research.org.uk/view/12315/N8-RightsRetentionStatement-1.pdf\">University of Liverpool<\/a>","<a href=\"https://www.library.manchester.ac.uk/services/research/open-research/access/rights-retention/\">University of Manchester<\/a>","<a href=\"https://www.ncl.ac.uk/media/wwwnclacuk/research/files/Research%20Publications%20and%20Copyright%20Policy%20-%20updated%20weblinks.pdf\">University of Newcastle<\/a>","<a href=\"https://openaccess.ox.ac.uk/rights-retention/\">University of Oxford<\/a>","<a href=\"https://www.sheffield.ac.uk/library/copyright/research-publications-copyright-policy\">University of Sheffield<\/a>","<a href=\"https://www.st-andrews.ac.uk/policy/research-open-research/open-access-policy.pdf\">University of St Andrews<\/a>","<a href=\"https://www.n8research.org.uk/view/12315/N8-RightsRetentionStatement-1.pdf\">University of York<\/a>"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[51.5115,57.1648],"lng":[-3.1883,0.1313]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-4964fb41351f12f49289" style="width:100%;height:650px;" class="leaflet html-widget "></div>
+<script type="application/json" data-for="htmlwidget-4964fb41351f12f49289">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[51.5219,51.5115,53.3786,57.1648,52.1951,54.765,55.9533,54.0104,53.8067,53.4048,53.4668,54.9792,51.7548,53.3814,56.3417,53.9461],[-0.1303,-0.116,-1.4659,-2.1015,0.1313,-1.5782,-3.1883,-2.7877,-1.555,-2.9653,-2.2339,-1.6147,-1.2544,-1.4884,-2.7943,-1.0518],null,null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":true,"className":""},["<a href=\"https://www.bbk.ac.uk/about-us/policies/open-access-research\">Birkbeck University of London<\/a>","<a href=\"https://www.kcl.ac.uk/researchsupport/open-access/rights-retention-strategy\">King's College London<\/a>","<a href=\"https://libguides.shu.ac.uk/OpenAccess/rightsretention\">Sheffield Hallam University<\/a>","<a href=\"https://www.abdn.ac.uk/staffnet/documents/policy-zone-research-and-knowledge-exchange/Research_Publications_Policy_2023.pdf\">University of Aberdeen<\/a>","<a href=\"https://www.openaccess.cam.ac.uk/cambridge-open-access-policy/self-archiving-policy\">University of Cambridge<\/a>","<a href=\"https://www.durham.ac.uk/research/ethics--governance/research-publications-policy/\">University of Durham<\/a>","<a href=\"https://www.ed.ac.uk/information-services/about/policies-and-regulations/research-publications\">University of Edinburgh<\/a>","<a href=\"https://portal.lancaster.ac.uk/ask/study/library/open-research/research-publications-and-rights-retention-policy/\">University of Lancaster<\/a>","<a href=\"https://ris.leeds.ac.uk/research-excellence/university-of-leeds-publications-policy/\">University of Leeds<\/a>","<a href=\"https://www.n8research.org.uk/view/12315/N8-RightsRetentionStatement-1.pdf\">University of Liverpool<\/a>","<a href=\"https://www.library.manchester.ac.uk/services/research/open-research/access/rights-retention/\">University of Manchester<\/a>","<a href=\"https://www.ncl.ac.uk/media/wwwnclacuk/research/files/Research%20Publications%20and%20Copyright%20Policy%20-%20updated%20weblinks.pdf\">University of Newcastle<\/a>","<a href=\"https://openaccess.ox.ac.uk/rights-retention/\">University of Oxford<\/a>","<a href=\"https://www.sheffield.ac.uk/library/copyright/research-publications-copyright-policy\">University of Sheffield<\/a>","<a href=\"https://www.st-andrews.ac.uk/policy/research-open-research/open-access-policy.pdf\">University of St Andrews<\/a>","<a href=\"https://www.n8research.org.uk/view/12315/N8-RightsRetentionStatement-1.pdf\">University of York<\/a>"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[51.5115,57.1648],"lng":[-3.1883,0.1313]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p>Click on marker and then on Uni name to see their policy. Sheffield and London have 2 pins; zoom-in to see them.</p>
@@ -178,8 +149,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">datatable</span>(rr,<span class="at">escape=</span><span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-ca80747045646953a52f" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-ca80747045646953a52f">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"],["University of Edinburgh","University of Cambridge","Birkbeck University of London","Sheffield Hallam University","University of Aberdeen","University of Leeds","University of Newcastle","University of St Andrews","University of Sheffield","University of Durham","University of Lancaster","University of Liverpool","University of Manchester","University of York","University of Oxford","King's College London"],["2022-01-01","2023-04-01","2022-xx-xx","2022-10-15","2023-05-01","2023-01-01","2022-08-01","2023-02-01","2023-01-17","2023-03-31","2023-03-01","2023-01-24","2023-03-01","2023-01-24","2023-01-31","2023-03-01"],["<a href=\"https://www.ed.ac.uk/information-services/about/policies-and-regulations/research-publications\">link<\/a>","<a href=\"https://www.openaccess.cam.ac.uk/cambridge-open-access-policy/self-archiving-policy\">link<\/a>","<a href=\"https://www.bbk.ac.uk/about-us/policies/open-access-research\">link<\/a>","<a href=\"https://libguides.shu.ac.uk/OpenAccess/rightsretention\">link<\/a>","<a href=\"https://www.abdn.ac.uk/staffnet/documents/policy-zone-research-and-knowledge-exchange/Research_Publications_Policy_2023.pdf\">link<\/a>","<a href=\"https://ris.leeds.ac.uk/research-excellence/university-of-leeds-publications-policy/\">link<\/a>","<a href=\"https://www.ncl.ac.uk/media/wwwnclacuk/research/files/Research%20Publications%20and%20Copyright%20Policy%20-%20updated%20weblinks.pdf\">link<\/a>","<a href=\"https://www.st-andrews.ac.uk/policy/research-open-research/open-access-policy.pdf\">link<\/a>","<a href=\"https://www.sheffield.ac.uk/library/copyright/research-publications-copyright-policy\">link<\/a>","<a href=\"https://www.durham.ac.uk/research/ethics--governance/research-publications-policy/\">link<\/a>","<a href=\"https://www.lancaster.ac.uk/library/open-research/research-publications-and-rights-retention-policy-/index.php\">link<\/a>","<a href=\"https://www.n8research.org.uk/view/12315/N8-RightsRetentionStatement-1.pdf\">link<\/a>","<a href=\"https://www.library.manchester.ac.uk/services/research/open-research/access/rights-retention/\">link<\/a>","<a href=\"https://www.n8research.org.uk/view/12315/N8-RightsRetentionStatement-1.pdf\">link<\/a>","<a href=\"https://openaccess.ox.ac.uk/rights-retention/\">link<\/a>","<a href=\"https://www.kcl.ac.uk/researchsupport/open-access/rights-retention-strategy\">link<\/a>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Institution<\/th>\n      <th>Start Date<\/th>\n      <th>Policy<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-0f96e583300f6cccea8a" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-0f96e583300f6cccea8a">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"],["University of Edinburgh","University of Cambridge","Birkbeck University of London","Sheffield Hallam University","University of Aberdeen","University of Leeds","University of Newcastle","University of St Andrews","University of Sheffield","University of Durham","University of Lancaster","University of Liverpool","University of Manchester","University of York","University of Oxford","King's College London"],["2022-01-01","2023-04-01","2022-xx-xx","2022-10-15","2023-05-01","2023-01-01","2022-08-01","2023-02-01","2023-01-17","2023-03-31","2023-03-01","2023-01-24","2023-03-01","2023-01-24","2023-01-31","2023-03-01"],["<a href=\"https://www.ed.ac.uk/information-services/about/policies-and-regulations/research-publications\">link<\/a>","<a href=\"https://www.openaccess.cam.ac.uk/cambridge-open-access-policy/self-archiving-policy\">link<\/a>","<a href=\"https://www.bbk.ac.uk/about-us/policies/open-access-research\">link<\/a>","<a href=\"https://libguides.shu.ac.uk/OpenAccess/rightsretention\">link<\/a>","<a href=\"https://www.abdn.ac.uk/staffnet/documents/policy-zone-research-and-knowledge-exchange/Research_Publications_Policy_2023.pdf\">link<\/a>","<a href=\"https://ris.leeds.ac.uk/research-excellence/university-of-leeds-publications-policy/\">link<\/a>","<a href=\"https://www.ncl.ac.uk/media/wwwnclacuk/research/files/Research%20Publications%20and%20Copyright%20Policy%20-%20updated%20weblinks.pdf\">link<\/a>","<a href=\"https://www.st-andrews.ac.uk/policy/research-open-research/open-access-policy.pdf\">link<\/a>","<a href=\"https://www.sheffield.ac.uk/library/copyright/research-publications-copyright-policy\">link<\/a>","<a href=\"https://www.durham.ac.uk/research/ethics--governance/research-publications-policy/\">link<\/a>","<a href=\"https://portal.lancaster.ac.uk/ask/study/library/open-research/research-publications-and-rights-retention-policy/\">link<\/a>","<a href=\"https://www.n8research.org.uk/view/12315/N8-RightsRetentionStatement-1.pdf\">link<\/a>","<a href=\"https://www.library.manchester.ac.uk/services/research/open-research/access/rights-retention/\">link<\/a>","<a href=\"https://www.n8research.org.uk/view/12315/N8-RightsRetentionStatement-1.pdf\">link<\/a>","<a href=\"https://openaccess.ox.ac.uk/rights-retention/\">link<\/a>","<a href=\"https://www.kcl.ac.uk/researchsupport/open-access/rights-retention-strategy\">link<\/a>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Institution<\/th>\n      <th>Start Date<\/th>\n      <th>Policy<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -214,9 +185,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -281,6 +266,116 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
