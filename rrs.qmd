@@ -55,3 +55,4 @@ Sheffield and London have multiple pins; zoom-in to see them.
 ```{r}
 datatable(rr,escape=FALSE)
 ```
+
