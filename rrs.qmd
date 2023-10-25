@@ -1,6 +1,6 @@
 ---
 title: "UK Institutional Rights Retention Policies"
-subtitle: (CC-BY) <https://sje30.github.io/rrs/rrs.html>
+subtitle: (CC BY) <https://sje30.github.io/rrs/rrs.html>
 date: 2023-03-18
 date-format: iso
 date-modified: last-modified
@@ -49,6 +49,12 @@ leaflet(merged, width=600, height=600) %>% addTiles() %>%
 
 Click on marker and then on Uni name to see their policy.
 Sheffield and London have multiple pins; zoom-in to see them.
+
+## In-progress
+
+[Rights retention
+policies](https://midlandsinnovation.org.uk/write/MediaUploads/Press%20Release/2023/MIRightsRetentionStatementFINAL.pdf)
+expected in the Midland consortium of eight universities.
 
 
 ## Underlying data
