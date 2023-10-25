@@ -50,11 +50,15 @@ leaflet(merged, width=600, height=600) %>% addTiles() %>%
 Click on marker and then on Uni name to see their policy.
 Sheffield and London have multiple pins; zoom-in to see them.
 
-## In-progress
+## In progress
 
 [Rights retention
 policies](https://midlandsinnovation.org.uk/write/MediaUploads/Press%20Release/2023/MIRightsRetentionStatementFINAL.pdf)
 expected in the Midland consortium of eight universities.
+
+[The Scottish Confederation of University and Research Libraries
+(SCURL)](https://www.scurl.ac.uk/rights-retention-statement) will
+provide rights retention principles for their institutions.
 
 
 ## Underlying data
