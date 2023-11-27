@@ -50,6 +50,15 @@ leaflet(merged, width=600, height=600) %>% addTiles() %>%
 Click on marker and then on Uni name to see their policy.
 Sheffield and London have multiple pins; zoom-in to see them.
 
+## Adding more institutions
+
+If you would like to add new institutions to this page, please
+[email](https://sje30.github.io/about) with e.g. with the name of the
+institution, URL and start date.
+
+
+
+
 ## In progress
 
 [Rights retention
@@ -60,6 +69,9 @@ expected in the Midland consortium of eight universities.
 (SCURL)](https://www.scurl.ac.uk/rights-retention-statement) will
 provide rights retention principles for their institutions.
 
+[The GW4 Alliance](https://gw4.ac.uk/news/gw4-alliance-launches-joint-statement-on-rights-retention-in-scholarly-works/)
+(Bath, Bristol, Cardiff and Exeter) has announced in November 2023
+their intention for rights retention policies.
 
 ## Underlying data
 
