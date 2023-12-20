@@ -47,8 +47,8 @@ leaflet(merged, width=600, height=600) %>% addTiles() %>%
             options = popupOptions(closeButton = TRUE))
 ```
 
-Click on marker and then on Uni name to see their policy.
-Sheffield and London have multiple pins; zoom-in to see them.
+Click on marker and then on Uni name to see their policy.  Some cities
+have multiple pins; zoom-in to see them.
 
 ## Adding more institutions
 
