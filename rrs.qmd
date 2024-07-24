@@ -53,7 +53,7 @@ have multiple pins; zoom-in to see them.
 ## Adding more institutions
 
 If you would like to add new institutions to this page, please
-[email](https://sje30.github.io/about) with e.g. with the name of the
+[email](https://sje30.github.io/about) with the name of the
 institution, URL and start date.
 
 
