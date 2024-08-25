@@ -73,6 +73,10 @@ provide rights retention principles for their institutions.
 (Bath, Bristol, Cardiff and Exeter) has announced in November 2023
 their intention for rights retention policies.
 
+[SOAS University of
+London](https://www.soas.ac.uk/research/library/scholarly-communications/)
+will launch their policy soon.
+
 ## Underlying data
 
 ```{r}
