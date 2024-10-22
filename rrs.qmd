@@ -34,9 +34,10 @@ library(htmltools)
 library(DT)
 cities = read_csv("places.csv")
 rr     = read_csv("ukinstitutions.csv", comment = "#")
-merged <- merge(x=rr, y=cities, by="Institution")
+merged <- merge(x=rr, y=cities, by="Institution", all=TRUE)
 merged <- merged %>% mutate(label = sprintf("<a href=\"%s\">%s</a>",
                                             Reference, Institution))
+stopifnot(! any(is.na(merged$lat)))  # ALL join did not work if we have NAs.
 rr <- rr %>% mutate(Policy = sprintf("<a href=\"%s\">link</a>", Reference))
 rr <- rr %>% mutate(Reference=NULL)
 ```
