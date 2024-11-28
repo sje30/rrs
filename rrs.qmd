@@ -77,7 +77,10 @@ their intention for rights retention policies.
 
 ## Underlying data
 
+## Underlying data
+
 ```{r}
 datatable(rr,escape=FALSE)
 ```
+
 
