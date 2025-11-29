@@ -1,0 +1,11 @@
+Dear editor,
+
+I've written a "primer" for scientific authors to describe a relatively new strategy in scholarly publishing.  The Rights Retention Strategy (RRS) was devised last year by cOAlition S to promote open access.  Just in February this year, many publishers wrote in opposition to this, seeing the RRS as a threat to their existence. https://ioppublishing.org/signatories_publish_statement_on_rights_retention_strategy/
+
+I think the RRS is a simple and elegant tool to make work open access without paying APCs to subscription-based journals.  Whilst well-funded labs might be able to afford ever increasing APCs (like 9500 EUR for Nature), most labs, and certainly most countries in the Global South cannot.  The big deal between Elsevier and UC means that open access is in the news; the UK is going to be the next country negotiating with Elsevier this year, and the RRS would be a valuable tool in controlling costs.
+
+I cover the pros and cons of the RRS.  I believe though that academics should become aware of this tool NOW so that more work can be made open access in a cost-efficient manner.  It also helps raise awareness about authors retaining rights over the scholarly work in general (i.e. not just papers, but their data and code).
+
+I believe eLife is a journal that is positively encouraging authors to move away from traditional publishing practices.  I appreciate that you may feel that the RRS is not relevant to eLife, as you are currently APC-based, rather than subscription-based.  However, given your wide readership base in the life sciences, and the dominance of traditional publishers in this field, I think eLife would be a great venue to start academic discussion about this matter.
+
+Best wishes, Stephen Eglen
