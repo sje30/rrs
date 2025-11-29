@@ -1,0 +1,47 @@
+* UKRN Primers: Guidelines for primer structure
+
+The aim of the primer is to introduce the topic to complete beginners
+(and up). Having read the primer, readers should understand the basic
+idea of the practice, how to get started, and where to look for
+further guidance.
+
+Primers will be openly published on the UKRN website, and are part of a series of primers/guides for incorporating Open Research practices at different stages of the research project. 
+
+To keep the primers current and relevant, we plan to review and update them yearly.
+
+Document length: 1-2 pages
+
+Accessibility:  We need the primers to be accessible across as wide a range of disciplines as possible.
+
+The primer should include the following elements:
+
+What – A Wikipedia type abstract describing what it is
+
+Why – Brief description of why the topic is important, explained in a
+couple of sentences
+
+How to – A practical how to step-by-step guide makes up the majority
+(i.e., approx. 80%) of the primer:
+
+Instructions should be broad (i.e., try not to be too specific to one
+particular website/programme) while balancing enough detail to be
+practically useful
+
+Accessible - Avoid overly technical language where possible. Do not
+assume prior knowledge of other programmes or open science practices
+(provide links or short descriptions where necessary)
+
+Consider identifying basic entry point actions, and then good/better/best
+
+Include links to resources and further reading. For example:
+FAQ pages
+Relevant organisations (e.g., Center for Open Science)
+Detailed literature / webpages / instruction sheets / examples of best practice 
+Contacts for support (groups/organisations rather than individuals)
+If you have more then a few (5 ish) resources please think about how to structure the links so they are most useful to the reader
+
+Style suggestions:
+Please use Arial size 11 font for the main text (google doc default). Use size 18 for the main title, and 14 (bold) for sub-headings.
+You may wish to highlight key words and phrases for important concepts within the primer
+We advise (but certainly don’t require) APA formatting (e.g., for headings)
+

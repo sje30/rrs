@@ -1,0 +1,419 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  a4paper,
+]{article}
+
+\usepackage{amsmath,amssymb}
+\usepackage[]{mathpazo}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=25mm]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\usepackage{mathpazo}
+
+\usepackage{setspace}
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={A researcher's guide to using the rights retention strategy (version 0.3)},
+  pdfauthor={Stephen J Eglen},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{A researcher's guide to using the rights retention strategy
+(version 0.3)}
+\author{Stephen J Eglen}
+\date{2023-02-09}
+
+\begin{document}
+\maketitle
+\onehalfspacing
+
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, interior hidden, breakable, enhanced, sharp corners]}{\end{tcolorbox}}\fi
+
+\hypertarget{what-is-rights-retention}{%
+\section{What is rights retention?}\label{what-is-rights-retention}}
+
+The internet has transformed the way that many researchers work. We can
+now rapidly share both digital research artefacts and computer
+programmes for processing the artefacts. This freedom to share our
+digital artefacts is exciting and is rapidly transforming many academic
+disciplines. A range of
+\href{https://libguides.cam.ac.uk/copyright/researchers}{copyright
+licences} now exist to allow researchers to both retain rights on their
+work whilst being able to also share their work. The use of standard
+licences, particularly the creative commons (CC) family, makes our jobs
+as academics relatively painless and robust. This ability to share our
+scholarly products is a key academic principle that hopefully most
+researchers will find natural and uncontroversial. Furthermore, most UK
+grant agencies require data management plans as a condition of funding
+to maximise the potential reuse of the research that they fund.
+
+In parallel to this growth of open research, UK research councils and
+major funding bodies now require that our published research articles
+must freely available without embargo under particular copyright
+licences (such as CC-BY). Journal publishers have responded to these
+requirements in various ways, e.g.~by offering `gold open access'
+routes, that often require payment of substantial article processing
+charges (APCs).
+
+Funders also permit `green open access' as a route to compliance with
+their rules. This is where the author makes their version of the
+manuscript (the peer-reviewed author accepted manuscript, AAM) freely
+available via an institutional repository or similar archive. Many
+publishers have previously allowed some form of self-archiving, but
+usually with constraints, e.g.~imposition of an embargo period (between
+6-24 months). These constraints contradict funders' requirements that
+prohibit any embargo period.
+
+In response to these restrictive embargo periods, and to encourage open
+research, academic institutions and researchers have developed their own
+policies to permit sharing of their work. Perhaps the most well-known
+example of these is the policy led by
+\href{https://osc.hul.harvard.edu/policies/}{Harvard} faculty in 2008.
+Within the UK, proposals for a UK Scholarly Communications Licence
+\href{https://ukscl.ac.uk/}{UK-SCL} have been created. Internationally,
+the
+``\href{https://www.coalition-s.org/rights-retention-strategy/}{rights
+retention strategy}'\,' been developed by a group of international
+funders, cOAlition S, to allow researchers to retain rights on their
+scholarly writing and thus meet the requirements of their funders.
+
+This guide describes how authors can retain rights on their manuscripts
+using the rights retention strategy.
+
+\hypertarget{why-should-authors-retain-their-rights}{%
+\section{Why should authors retain their
+rights?}\label{why-should-authors-retain-their-rights}}
+
+Authors should retain their rights so that it they, not a third party,
+retain control over uses of their own manuscripts. This includes when
+and to whom their manuscript can be disseminated, and means that
+researchers treat manuscripts in a similar fashion to other digital
+artefacts that they wish to share. Another important reason why
+researchers might wish to retain their rights is to comply with funders'
+requirements. Ignoring funders' requirements could affect a researcher's
+chance of future funding. This might be seen by some researchers as
+simple rule-following with little benefit to themselves. However, work
+that is available open-access tends to be more highly cited than work
+that is only available behind a paywall (Langham-Putrow, Bakker, and
+Riegelman 2021). Open-access licences on work allows for rapid reuse by
+everyone in the community, including the researchers who originally
+created the material. This includes, but is not limited to to books,
+talks, wikipedia and social media, for teaching and research.
+
+In many professional disciplines, the creator of the work naturally
+maintains rights to their work. Many journal publishers state that they
+require exclusive rights to publish the work. This is simply not true
+(Suber 2022).
+
+\hypertarget{how-to-retain-rights-to-your-manuscripts}{%
+\section{How to retain rights to your
+manuscripts}\label{how-to-retain-rights-to-your-manuscripts}}
+
+The process of retaining rights on your manuscripts is simple. Before
+submitting your work to a journal, add the following phrase to your
+manuscript e.g.~in the Acknowledgements section:
+
+\begin{verbatim}
+For the purpose of open access, the author has applied a Creative
+Commons Attribution (CC BY) licence to any Author Accepted
+Manuscript version arising from this submission.
+\end{verbatim}
+
+It is also a good idea to tell the editor, in your cover letter, that
+you wish to retain rights to any author-accepted manuscript resulting
+from your submission.
+
+That's it. If your paper is accepted by the editor after peer-review,
+your author accepted manuscript can then be deposited in a suitable open
+repository under a CC-BY licence without embargo. You are then free to
+also share the manuscript however you choose. (Some disciplines may
+prefer other forms of creative commons licence that prevent
+e.g.~commercial use; many funders allow this but it may require you to
+apply for an exemption.)
+
+This approach is endorsed and recommended by major research funders,
+including the Wellcome Trust and all of the UK Research Councils.
+
+\hypertarget{what-if-things-go-wrong}{%
+\subsection{What if things go wrong?}\label{what-if-things-go-wrong}}
+
+In the majority of cases, researchers to date have faced no issues when
+using the rights retention strategy to make their manuscripts freely
+available without embargo. However, there are several issues to be aware
+of:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  A journal editor may decline reviewing (``desk reject'') your
+  manuscript because it uses rights retention language. Whilst
+  unfortunate, each publisher is free to decline to review articles for
+  many reasons. However, although many traditional publishers have
+  voiced their concerns about rights retention
+  \url{https://ioppublishing.org/signatories_publish_statement_on_rights_retention_strategy/},
+  those same publishers are allowing authors to exert their natural
+  rights
+  \url{https://github.com/rossmounce/rrs-language-including-outputs}.
+\item
+  One of the largest publishers, Springer Nature, noted in April 2021
+  that in some cases they will effectively ignore rights retention
+  language in manuscripts
+  \url{https://www.springernature.com/gp/advancing-discovery/blog/blogposts/continuing-the-open-access-transition/19045440}
+  and require a transfer of copyright. This will create a conflict once
+  the manuscript has been editorially accepted. Ignoring researcher
+  rights on their work is highly unethical, and puts researchers in a
+  very difficult position. To avoid this stalemate, a researcher could
+  seek confirmation from the editor that they can retain their rights
+  before submitting their manuscript. A simpler approach would be to
+  avoid that publisher.
+\item
+  If you publish your work in a subscription journal, as long as you
+  make your AAM freely available without embargo, you do not need to pay
+  the journal an APC. (The journal may still demand other charges, such
+  as for colour figures in-print.) However, if you publish your work in
+  an open-access journal, you may still need to pay an APC to have your
+  work published. Often these costs are covered by institutional
+  arrangements with the publisher.
+\end{enumerate}
+
+The route to open access can occasionally be more complicated than it
+need be. If in doubt, researchers may seek local advice e.g.~from
+library staff, when choosing which journal to submit their work to, and
+funding sources for any charges. The journal checker tool
+\url{https://journalcheckertool.org/} provides information about journal
+compliance with funders' OA policies, and provides simple options for
+you to follow.
+
+\hypertarget{institutional-support-for-rights-retention}{%
+\subsection{Institutional support for rights
+retention}\label{institutional-support-for-rights-retention}}
+
+Researchers can and should use the rights retention strategy by
+themselves to ensure they retain some control of their own manuscripts,
+and to assist them with complying with funders' requirements for open
+access. To support their researchers, several UK institutions have
+already adopted rights retention policies that apply to their employees.
+These policies typically give the institution a non-exclusive right to
+archive author accepted manuscripts and make them available via their
+repository. The researcher gains an extra layer of institutional support
+in the (hopefully rare) case that a publisher raises a concern with
+rights retention language in the manuscript (i.e.~an author wishing to
+retain rights that are rightfully theirs). Some universities have
+publicly stated their support for their researchers should any of their
+authors be challenged by a publisher. A list of current UK institutional
+policies is available at:
+\url{https://github.com/sje30/rrs/blob/main/ukinstitutions.csv} ; this
+list is expected to grow considerably during 2023 and 2024. However,
+even with an institutional policy supporting the researcher, it is
+pragmatic to still include the rights retention statement in your
+manuscript.
+
+\hypertarget{closing-comments}{%
+\section{Closing comments}\label{closing-comments}}
+
+Adopting the rights retention language in manuscripts is a clear and
+simple step that all authors can take to maintain rights over their
+work. It has been adopted successfully in the last few years by many
+authors. Despite several publishers raising concerns with it in 2021,
+there has yet to be any major objection raised when researchers assert
+their natural rights. To further support researchers, UK institutions
+are adopting policies to allow their employees to share their author
+accepted manuscripts without embargo.
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-Langham-Putrow2021-qf}{}}%
+Langham-Putrow, Allison, Caitlin Bakker, and Amy Riegelman. 2021. {``Is
+the Open Access Citation Advantage Real? A Systematic Review of the
+Citation of Open Access and Subscription-Based Articles.''} \emph{PLoS
+One} 16 (6): e0253129.
+\url{https://doi.org/10.1371/journal.pone.0253129}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Suber2022-dm}{}}%
+Suber, Peter. 2022. {``Publishing Without Exclusive Rights.''} \emph{J.
+Electron. Publ.} 25 (1). \url{https://doi.org/10.3998/jep.1869}.
+
+\end{CSLReferences}
+
+\hypertarget{changes}{%
+\section{Changes}\label{changes}}
+
+\hypertarget{version-0.3}{%
+\subsection{version 0.3}\label{version-0.3}}
+
+In this version I thank feedback from the several reviewers. I have
+implemented almost all of their suggestions. Of note:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The title has been changed.
+\item
+  A new opening paragraph has been added to highlight the benefits of
+  open research, which in turn relies on licencing.
+\item
+  I have tightened the section `What if things go wrong'?
+\end{enumerate}
+
+In addition to these reviewer suggestions, I've added a brief closing
+comment.
+
+and now spell-checked!
+
+
+
+\end{document}
