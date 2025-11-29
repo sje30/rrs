@@ -1,0 +1,43 @@
+
+digraph finite_state_machine {
+	rankdir=LR;
+	size="8,5"
+	node [shape = rectange]; m1 m2 m3;
+	node [shape = circle] a;
+	node [shape = rectange; color="green"]; aam;
+	node [shape = rectange; color="gold"]; vor;
+	node [shape = rectange; color="red", label="reviews"]; r1, r2;
+	
+	a [label = "authors"];
+	r [label = "reviewers\neditor"; shape=circle; color="black"];
+	ok [label = "Accept"; shape=rectangle; color="olive"] 
+	a -> m1 -> r;
+	r -> r1 -> a;
+	a -> m2 [label = "edits"];
+	m2 -> r;
+	r -> r2 -> a;
+	a -> m3 [label = "edits"];
+#m1 -> m2;
+#m2 -> m3;
+       m3 -> r;
+       r -> ok -> a;
+
+	m3 -> aam;
+	m3 -> vor;
+}	
+	
+# 	LR_0 -> LR_2 [ label = "SS(00)" ];
+# 	LR_0 -> LR_1 [ label = "SS(S)" ];
+# 	LR_1 -> LR_3 [ label = "S($end)" ];
+# 	LR_2 -> LR_6 [ label = "SS(b)" ];
+# 	LR_2 -> LR_5 [ label = "SS(a)" ];
+# 	LR_2 -> LR_4 [ label = "S(A)" ];
+# 	LR_5 -> LR_7 [ label = "S(b)" ];
+# 	LR_5 -> LR_5 [ label = "S(a)" ];
+# 	LR_6 -> LR_6 [ label = "S(b)" ];
+# 	LR_6 -> LR_5 [ label = "S(a)" ];
+# 	LR_7 -> LR_8 [ label = "S(b)" ];
+# 	LR_7 -> LR_5 [ label = "S(a)" ];
+# 	LR_8 -> LR_6 [ label = "S(b)" ];
+# 	LR_8 -> LR_5 [ label = "S(a)" ];
+# }
