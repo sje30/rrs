@@ -29,3 +29,7 @@ ms_changes-crop.png: ms_changes-crop.pdf
 
 rrs.html: rrs.qmd  ukinstitutions.csv places.csv
 	quarto render  $<
+
+serve:
+	python3 -m http.server 8000 --directory .
+	@echo "Open http://localhost:8000/rrs.html"
