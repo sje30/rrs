@@ -31,5 +31,6 @@ rrs.html: rrs.qmd  ukinstitutions.csv places.csv
 	quarto render  $<
 
 serve:
-	python3 -m http.server 8000 --directory .
 	@echo "Open http://localhost:8000/rrs.html"
+	python3 -m http.server 8000 --directory .
+
